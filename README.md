@@ -1,3 +1,3 @@
 https://github.com/yakubnasibov/ono-tebe-nado-fd
 
-Тестовое изменение для GitHub Actions — пуш #1
+Тестовое изменение для GitHub Actions
