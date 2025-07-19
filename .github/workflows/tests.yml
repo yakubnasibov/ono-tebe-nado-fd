@@ -4,8 +4,7 @@ on:
   push:
     branches:
       - ''
-  pull_request:
-    branches:
+    tags:
       - ''
 
 jobs:
@@ -14,14 +13,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-
       - name: Check if the repository is private
-        run: |
-          if [ "${{ github.event.repository.private }}" != "true" ]; then
-            echo "❌ Repository must be private"
-            exit 1
-          fi
-
+        run: exit 1
+        if: ${{github.event.repository.private}}
       - name: Tests
         uses: Yandex-Practicum/test-project-action@v1
         with:
