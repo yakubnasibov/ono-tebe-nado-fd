@@ -51,7 +51,7 @@ header {
  max-width: 240px;
  height: 98px;
  top: 94px;
- right: 258px;
+ right: 300px;
  font-size: 18px;
  font-style: normal;
  line-height: 1.4;
@@ -228,10 +228,6 @@ header {
  grid-template-columns: 334px 1fr;
 }
 
-.about__column {
-
-}
-
 .about__logo {
  width: 240px;           
  height: 240px;          
@@ -255,8 +251,8 @@ header {
 .about__title {
  position: relative;
  font-size: 40px;
- margin-left: 383px;
- bottom: 137px;
+ margin-left: 50px;
+ top: 290px;
  width: 291px;
 }
 
@@ -266,7 +262,7 @@ header {
  font-size: 20px;
  display: flex;
  flex-direction: column;
- bottom: 40px;
+ top: 10px;
  gap: 25px;
 }
 
@@ -278,9 +274,6 @@ header {
  width: 693px;
 }
 
-.main {
-
-}
 
 footer {
  display: grid;
@@ -297,7 +290,7 @@ footer {
  width: 264px;
  height: 98px;
  margin-left: 50px;
- margin-top: 140px;
+ margin-top: 193px;
 }
 
 .footer__menu {
@@ -306,7 +299,7 @@ footer {
  flex-direction: column;
  align-items: center;
  font-size: 18px;
- margin-top: 140px;
+ margin-top: 195px;
  text-decoration: none;
 }
 
@@ -320,7 +313,7 @@ footer {
  display: flex;
  width: 48px;
  height: 48px;
- right: 450px;
- margin-top: -60px;
+ right: 490px;
+ margin-top: -63px;
  gap: 48px;
 }
