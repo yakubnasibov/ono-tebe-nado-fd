@@ -228,8 +228,8 @@ header {
 }
 
 .about__logo {
- width: 240px;      
- height: 240px;  
+ width: 240px;   
+ height: 240px;
  background-color: black;
  border-radius: 50%;
  display: flex;
